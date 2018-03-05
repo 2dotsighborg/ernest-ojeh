@@ -1,0 +1,95 @@
+body {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+#header-message {
+    font-size: 260%;
+    width: 43%;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#ernest {
+    color: black;
+}
+
+/* The unordered list on the home page */
+.list {
+    list-style-type: none;
+    display: inline-table;
+    margin-top: 12%;
+    margin-left: -40px;
+    padding-right: 190px;
+}
+
+li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+#third-table {
+    padding-right: 150px;
+}
+
+@media (max-width: 1255px){
+    .list {
+        padding-right: 130px;
+    }
+
+    #third-table {
+        padding-right: 100px;
+    }   
+}
+
+@media (max-width: 990px){
+    #header-message {
+        font-size: 220%;
+    }
+    .list {
+        padding-right: 110px;
+    }
+
+    #third-table {
+        padding-right: 80px;
+    }   
+}
+
+@media (max-width: 825px){
+    #header-message {
+        width: 50%;
+    }
+}
+
+@media (max-width: 710px){
+    #header-message {
+        font-size: 190%;
+        width: 60%;
+    }
+}
+
+@media (max-width: 515px){
+    #header-message {
+        font-size: 160%;
+        width: 75%;
+        line-height: 40px;
+        margin-bottom: 80px;
+    }
+
+    .list {
+        padding-right: 65px;
+    }
+
+    #third-table {
+        padding-right: 37px;
+    }
+}
